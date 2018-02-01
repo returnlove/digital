@@ -13,3 +13,14 @@ If metrics are dependent on the page load, then better capture the information r
 Isolation code - the code which grabs the info on the page load, this code is independent of the adobe base code as we dont want to delay AA tracking call. This isolation code just be independent where we don't interfere in AA base code.
 So, on the next page when AA code loads, it can check for the cookie placed in the previous page (the cookie is placed by isolated code) and the plug in to AA variable. However, on the first page, where there is no cookie, then AA will check if cookie is present or not. If not then no need to pass the info to AA variables.
 
+
+// https://www.youtube.com/watch?v=gRv3vvX8cgU
+
+Cross domain tracking using Marketing Cloud ID service
+
+
+
+
+
+
+
